@@ -1,0 +1,183 @@
+@font-face {
+  font-family: Gotham-Black;
+  src: url(../../public/Gotham-Black.otf); /* Insert file path to font here */
+}
+
+@font-face {
+  font-family: Gotham;
+  src: url(../../public/Gotham-Light.otf); /* Insert file path to font here */
+}
+
+@font-face {
+  font-family: Gotham-Bold;
+  src: url(../../public/Gotham-Bold.otf); /* Insert file path to font here */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+#root {
+  width: 100vw;
+}
+main {
+  padding: 2rem;
+}
+body {
+  margin: 0;
+}
+
+.App not(:h1) {
+  padding: 2rem;
+}
+
+code {
+  color: rgb(134, 9, 9);
+  font-family: monospace;
+  font-size: 1.6rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  font-size: 1.4rem;
+}
+
+.link {
+  padding: 1rem;
+  color: #ba1f31;
+  font-size: 1.5rem;
+}
+
+button {
+  color: #fff;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  margin: 2rem 0 2rem 0;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  height: 3rem;
+  font-size: 0.8rem;
+  background-color: #ba1f31;
+}
+
+* {
+  font-family: Gotham, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  margin: 2.5rem 0 2rem 0;
+  font-size: 3rem;
+}
+
+h3 {
+  margin: 2rem 0 2rem 0;
+  font-size: 2.5rem;
+}
+h4 {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 2rem;
+}
+
+h5 {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+
+p,
+a {
+  margin: 1.5rem 0 1.5rem 0;
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+}
+
+a,
+a:hover,
+a:visited {
+  color: #ba1f31;
+  text-decoration: underline;
+}
+
+.instruction {
+  text-align: start;
+}
+
+.example-test {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.task-setup {
+  display: flex;
+  flex-flow: column;
+  justify-content: start;
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h* {
+  padding: 0.35rem;
+}
+
+.task-setup > .rreminder {
+  text-align: start;
+}
+
+.round-up {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  background-color: #ba1f31;
+  margin: 0;
+  padding: 1.4rem 2rem;
+  color: white;
+}
+
+#banner {
+  background-color: #202829;
+  padding-left: 1rem;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  height: 3rem;
+}
+
+a > button {
+  height: 100%;
+  width: 25vw;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+  margin: 0;
+  transition: 0.4s;
+}
+
+button:hover {
+  background-color: #e3746d;
+  cursor: pointer;
+}
+
+button > p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+a > button:focus {
+  outline: 0;
+}
+
+img {
+  padding: 1.5rem 0;
+}

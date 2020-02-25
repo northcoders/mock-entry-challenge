@@ -1,0 +1,6 @@
+{
+  "vetur.format.defaultFormatter.js": "none",
+  "editor.wordWrap": "on",
+  "editor.autoClosingBrackets": "never",
+  "editor.autoSurround": "never"
+}
